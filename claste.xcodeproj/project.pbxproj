@@ -11,6 +11,8 @@
 		470D80C32BCAC39100F3F141 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D80C22BCAC39100F3F141 /* ContentView.swift */; };
 		470D80C52BCAC39200F3F141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470D80C42BCAC39200F3F141 /* Assets.xcassets */; };
 		470D80C82BCAC39200F3F141 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470D80C72BCAC39200F3F141 /* Preview Assets.xcassets */; };
+		470D80D02BCAC5CD00F3F141 /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D80CF2BCAC5CD00F3F141 /* ClipboardManager.swift */; };
+		470D80D22BCACD9800F3F141 /* ExpandableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D80D12BCACD9800F3F141 /* ExpandableTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		470D80C42BCAC39200F3F141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		470D80C72BCAC39200F3F141 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		470D80C92BCAC39200F3F141 /* claste.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = claste.entitlements; sourceTree = "<group>"; };
+		470D80CF2BCAC5CD00F3F141 /* ClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManager.swift; sourceTree = "<group>"; };
+		470D80D12BCACD9800F3F141 /* ExpandableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				470D80C42BCAC39200F3F141 /* Assets.xcassets */,
 				470D80C92BCAC39200F3F141 /* claste.entitlements */,
 				470D80C62BCAC39200F3F141 /* Preview Content */,
+				470D80CF2BCAC5CD00F3F141 /* ClipboardManager.swift */,
+				470D80D12BCACD9800F3F141 /* ExpandableTextView.swift */,
 			);
 			path = claste;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				470D80C32BCAC39100F3F141 /* ContentView.swift in Sources */,
+				470D80D02BCAC5CD00F3F141 /* ClipboardManager.swift in Sources */,
 				470D80C12BCAC39100F3F141 /* clasteApp.swift in Sources */,
+				470D80D22BCACD9800F3F141 /* ExpandableTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
